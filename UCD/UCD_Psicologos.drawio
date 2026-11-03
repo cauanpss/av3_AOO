@@ -1,0 +1,116 @@
+<mxfile host="65bd71144e">
+    <diagram id="s2KhearW2v65dtX4pSqz" name="Page-1">
+        <mxGraphModel dx="1277" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-12" edge="1" parent="1" source="9DzDwAwWPixwrSo7Wh34-1" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="9DzDwAwWPixwrSo7Wh34-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-18" connectable="0" parent="9DzDwAwWPixwrSo7Wh34-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0233" y="-1" as="geometry">
+                        <mxPoint x="1" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-13" edge="1" parent="1" source="9DzDwAwWPixwrSo7Wh34-1" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="9DzDwAwWPixwrSo7Wh34-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-22" connectable="0" parent="9DzDwAwWPixwrSo7Wh34-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0474" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-14" edge="1" parent="1" source="9DzDwAwWPixwrSo7Wh34-1" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="9DzDwAwWPixwrSo7Wh34-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-23" connectable="0" parent="9DzDwAwWPixwrSo7Wh34-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0836" y="-1" as="geometry">
+                        <mxPoint x="7" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gerenciar perfil profissional&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="70" width="140" x="240" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-10" edge="1" parent="1" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="9DzDwAwWPixwrSo7Wh34-5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="359.9999999999998" y="449.9999999999998" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-24" connectable="0" parent="9DzDwAwWPixwrSo7Wh34-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0478" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-11" edge="1" parent="1" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="9DzDwAwWPixwrSo7Wh34-6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="359.9999999999998" y="449.9999999999998" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-25" connectable="0" parent="9DzDwAwWPixwrSo7Wh34-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0282" y="-1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Acessar clientes/pacientes vinculados" vertex="1">
+                    <mxGeometry height="70" width="140" x="220" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-16" edge="1" parent="1" source="9DzDwAwWPixwrSo7Wh34-3" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="9DzDwAwWPixwrSo7Wh34-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-26" connectable="0" parent="9DzDwAwWPixwrSo7Wh34-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0786" y="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Acessar funções profissionais autorizadas" vertex="1">
+                    <mxGeometry height="70" width="140" x="220" y="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Utilizar recursos da plataforma (ex: agenda, documentos, relatórios)" vertex="1">
+                    <mxGeometry height="90" width="160" x="520" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Visualizar informações dos clientes/pacientes" vertex="1">
+                    <mxGeometry height="90" width="160" x="520" y="355" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gerenciar atendimentos e registros" vertex="1">
+                    <mxGeometry height="90" width="160" x="520" y="475" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gerenciar vínculo com clientes/pacientes&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="90" width="160" x="520" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Informar área de atuação e especialidades" vertex="1">
+                    <mxGeometry height="90" width="160" x="520" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Autorizar dados pessoais e de contato" vertex="1">
+                    <mxGeometry height="90" width="160" x="520" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Actor" vertex="1">
+                    <mxGeometry height="60" width="30" x="30" y="415" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-27" edge="1" parent="1" source="9DzDwAwWPixwrSo7Wh34-17" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="9DzDwAwWPixwrSo7Wh34-1" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <mxPoint x="130" y="410" as="sourcePoint"/>
+                        <mxPoint x="290" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-29" edge="1" parent="1" source="9DzDwAwWPixwrSo7Wh34-2" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="9DzDwAwWPixwrSo7Wh34-17" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <mxPoint x="280" y="595" as="sourcePoint"/>
+                        <mxPoint x="430" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-30" edge="1" parent="1" source="9DzDwAwWPixwrSo7Wh34-17" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="9DzDwAwWPixwrSo7Wh34-3" value="">
+                    <mxGeometry relative="1" width="160" as="geometry">
+                        <mxPoint x="150" y="785" as="sourcePoint"/>
+                        <mxPoint x="300" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-32" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=155;height=50;" value="Plataforma de Gestão de profissionais de psicologia" vertex="1">
+                    <mxGeometry height="680" width="575" x="125" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9DzDwAwWPixwrSo7Wh34-38" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" value="Psicólogos&lt;br&gt;- Perfil profissional&lt;br&gt;-Área de atuação&lt;br&gt;- Vículo com clientes/pacientes&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ºGerencia perfil e acessar clientes/pacientes vinculados e funções profissionais autorizadas.&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="225" width="120" x="720" y="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
