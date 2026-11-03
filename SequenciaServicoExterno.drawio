@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Te9x_112JRystkkfypdY">
+    <mxGraphModel dx="988" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yqnfxXg45VinovakJNhG-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;perimeterSpacing=1;spacingTop=0;" value="" vertex="1">
+          <mxGeometry height="350" width="20" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-8" parent="yqnfxXg45VinovakJNhG-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yqnfxXg45VinovakJNhG-8" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Atendente&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="80" x="130" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;perimeterSpacing=1;spacingTop=0;" value="" vertex="1">
+          <mxGeometry height="350" width="20" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-12" parent="TvJU24sNNLq2DmDcXP1p-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-3" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Cliente&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="80" x="250" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Sítio" vertex="1">
+          <mxGeometry height="350" width="100" x="375" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-6" parent="TvJU24sNNLq2DmDcXP1p-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="45" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Serviço Externo" vertex="1">
+          <mxGeometry height="350" width="100" x="550" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-11" parent="TvJU24sNNLq2DmDcXP1p-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-15" parent="TvJU24sNNLq2DmDcXP1p-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="TvJU24sNNLq2DmDcXP1p-6" value="Agendar consulta do cliente">
+          <mxGeometry relative="1" width="80" x="-0.04" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="210" y="120" />
+            </Array>
+            <mxPoint x="170" y="120" as="sourcePoint" />
+            <mxPoint x="250" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="TvJU24sNNLq2DmDcXP1p-5" value="Salvar consulta na agenda">
+          <mxGeometry relative="1" width="80" x="-0.056" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="470" y="150" />
+            </Array>
+            <mxPoint x="430" y="150" as="sourcePoint" />
+            <mxPoint x="510" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-10" edge="1" parent="1" source="TvJU24sNNLq2DmDcXP1p-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="Enviar e-mail de confirmação">
+          <mxGeometry relative="1" x="0.0342" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="215" y="200" />
+            </Array>
+            <mxPoint x="255" y="200" as="sourcePoint" />
+            <mxPoint x="175" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="TvJU24sNNLq2DmDcXP1p-6" value="Verificar status da consulta">
+          <mxGeometry relative="1" width="80" x="0.04" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="335" y="250" />
+            </Array>
+            <mxPoint x="295" y="250" as="sourcePoint" />
+            <mxPoint x="375" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="TvJU24sNNLq2DmDcXP1p-5" value="Requerir status da consulta">
+          <mxGeometry relative="1" width="80" x="0.0619" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="470" y="270" />
+            </Array>
+            <mxPoint x="430" y="270" as="sourcePoint" />
+            <mxPoint x="510" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="TvJU24sNNLq2DmDcXP1p-12" value="Enviar e-mail de confirmação">
+          <mxGeometry relative="1" x="-0.1667" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="555" y="330" />
+            </Array>
+            <mxPoint x="595" y="330" as="sourcePoint" />
+            <mxPoint x="515" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvJU24sNNLq2DmDcXP1p-17" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Serviço Externo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="80" x="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
