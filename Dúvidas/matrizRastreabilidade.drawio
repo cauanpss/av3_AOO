@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-11-04T13:00:00.000Z" agent="OpenCode" version="24.7.17">
+  <diagram id="tr-index" name="00 - Visão Geral">
+    <mxGraphModel dx="1900" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tr-index-title" value="&lt;b style=&quot;font-size:30px;&quot;&gt;Matriz de Rastreabilidade — Sistema de Administração de Psicólogos&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="70" y="24" width="1700" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-index-subtitle" value="Coerência entre problema, requisitos, modelos, qualidade e validação." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="70" y="72" width="1700" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-index-sources" value="&lt;b&gt;Fontes utilizadas&lt;/b&gt;&lt;br&gt;&lt;br&gt;• PDF &lt;i&gt;Stakeholders, atores, glossário, requisitos e regras de negócio&lt;/i&gt;.&lt;br&gt;• PDF &lt;i&gt;Especificação de Caso de Uso — Sistema Externo&lt;/i&gt;.&lt;br&gt;• UCDs, classes, sequência, atividade, máquina de estados, persistência e implementação." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="820" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-index-how" value="&lt;b&gt;Como ler a matriz&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Cada linha parte de uma necessidade real do problema.&lt;br&gt;• O requisito é a fonte formal (RF, RNF ou RN).&lt;br&gt;• Os modelos mostram onde o requisito foi realizado.&lt;br&gt;• O critério de qualidade define o que observar.&lt;br&gt;• A validação indica como comprovar a coerência." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="880" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-chain-1" value="&lt;b style=&quot;font-size:15px;color:#1f3a5f;&quot;&gt;Problema&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#444;&quot;&gt;Necessidade do stakeholder&lt;/span&gt;" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=12;shadow=0;" vertex="1" parent="1" link="data:page/id,tr-matriz">
+          <mxGeometry x="70" y="330" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-chain-2" value="&lt;b style=&quot;font-size:15px;color:#1f3a5f;&quot;&gt;Requisitos&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#444;&quot;&gt;RF • RNF • RN&lt;/span&gt;" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=12;shadow=0;" vertex="1" parent="1" link="data:page/id,tr-matriz">
+          <mxGeometry x="360" y="330" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-chain-3" value="&lt;b style=&quot;font-size:15px;color:#1f3a5f;&quot;&gt;Casos de Uso&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#444;&quot;&gt;Atores e fluxos&lt;/span&gt;" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=12;shadow=0;" vertex="1" parent="1" link="data:page/id,tr-matriz">
+          <mxGeometry x="650" y="330" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-chain-4" value="&lt;b style=&quot;font-size:15px;color:#1f3a5f;&quot;&gt;Modelos&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#444;&quot;&gt;UCD, classes, sequência, atividade, estado, persistência, implementação&lt;/span&gt;" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=12;shadow=0;" vertex="1" parent="1" link="data:page/id,tr-matriz">
+          <mxGeometry x="940" y="330" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-chain-5" value="&lt;b style=&quot;font-size:15px;color:#1f3a5f;&quot;&gt;Qualidade&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#444;&quot;&gt;Critérios mensuráveis&lt;/span&gt;" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=12;shadow=0;" vertex="1" parent="1" link="data:page/id,tr-matriz">
+          <mxGeometry x="1230" y="330" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-chain-6" value="&lt;b style=&quot;font-size:15px;color:#1f3a5f;&quot;&gt;Validação&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;color:#444;&quot;&gt;Testes e evidências&lt;/span&gt;" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=12;shadow=0;" vertex="1" parent="1" link="data:page/id,tr-matriz">
+          <mxGeometry x="1520" y="330" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-arrow-1" value="&lt;b style=&quot;font-size:22px;color:#6c8ebf;&quot;&gt;→&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="365" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-arrow-2" value="&lt;b style=&quot;font-size:22px;color:#6c8ebf;&quot;&gt;→&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="365" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-arrow-3" value="&lt;b style=&quot;font-size:22px;color:#6c8ebf;&quot;&gt;→&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="900" y="365" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-arrow-4" value="&lt;b style=&quot;font-size:22px;color:#6c8ebf;&quot;&gt;→&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="365" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-arrow-5" value="&lt;b style=&quot;font-size:22px;color:#6c8ebf;&quot;&gt;→&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="365" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-index-summary" value="&lt;b&gt;Resumo de cobertura&lt;/b&gt;&lt;br&gt;&lt;br&gt;• &lt;b&gt;5 requisitos funcionais&lt;/b&gt; (RF01–RF05) e &lt;b&gt;4 requisitos não funcionais&lt;/b&gt; (RNF01–RNF04).&lt;br&gt;• &lt;b&gt;3 regras de negócio&lt;/b&gt; (RN01–RN03) verificadas na máquina de estados e na persistência.&lt;br&gt;• &lt;b&gt;29 casos de uso&lt;/b&gt; nos UCDs; &lt;b&gt;27&lt;/b&gt; com diagrama de atividade.&lt;br&gt;• &lt;b&gt;8 entidades&lt;/b&gt; de domínio no modelo de classes e &lt;b&gt;8 tabelas&lt;/b&gt; no modelo de persistência.&lt;br&gt;• &lt;b&gt;8 diagramas de sequência&lt;/b&gt;, &lt;b&gt;1 máquina de estados&lt;/b&gt; e &lt;b&gt;1 visão de implementação&lt;/b&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parecer:&lt;/b&gt; os requisitos estão coerentes com os modelos e com a persistência. As lacunas identificadas são de cobertura documental, não de contradição entre artefatos." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="490" width="1720" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tr-matriz" name="01 - Matriz de Rastreabilidade">
+    <mxGraphModel dx="2900" dy="2360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2900" pageHeight="2360" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tr-matriz-title" value="&lt;b style=&quot;font-size:28px;&quot;&gt;Matriz de Rastreabilidade — Requisitos × Modelos × Qualidade × Validação&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontStyle=1;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="2400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-matriz-subtitle" value="Cada linha relaciona uma necessidade do problema ao requisito, aos modelos que o realizam, ao critério de qualidade e à forma de validação." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="40" y="68" width="2700" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-matriz-table" value="&lt;table style=&quot;border-collapse:collapse;width:100%;table-layout:fixed;font-family:Helvetica,Arial,sans-serif;font-size:10.5px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#dae8fc;color:#1f3a5f;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;7&quot; style=&quot;padding:8px;border-bottom:1px solid #6c8ebf;font-size:16px;&quot;&gt;Matriz de Rastreabilidade — Problema × Requisito × Modelos × Qualidade × Validação&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:5px 6px;border-bottom:1px solid #d0d7de;width:70px;&quot;&gt;ID&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px;border-bottom:1px solid #d0d7de;width:430px;&quot;&gt;Problema / Necessidade&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px;border-bottom:1px solid #d0d7de;width:520px;&quot;&gt;Requisito (fonte)&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px;border-bottom:1px solid #d0d7de;width:450px;&quot;&gt;Casos de Uso / Atores&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px;border-bottom:1px solid #d0d7de;width:560px;&quot;&gt;Modelos Relacionados&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px;border-bottom:1px solid #d0d7de;width:300px;&quot;&gt;Critério de Qualidade&lt;/td&gt;
+    &lt;td style=&quot;padding:5px 6px;border-bottom:1px solid #d0d7de;width:530px;&quot;&gt;Validação / Evidência&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#dae8fc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RF01&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Diferentes perfis (paciente, psicólogo, atendente e administrador) precisam acessar a plataforma com permissões distintas e cadastro único.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RF01 — Cadastro de Usuários:&lt;/b&gt; o sistema deve permitir o cadastro de Pacientes, Psicólogos, Atendentes e Administradores com diferentes níveis de permissão.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Atendente: Cadastrar, consultar e atualizar paciente.&lt;br&gt;Administrador: cadastrar psicólogo/atendente e alterar permissões.&lt;br&gt;Serviço Externo: cadastrar cliente, cadastrar psicólogo e guardar informações.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;UCD Atendente/Paciente/Psicólogo/Serviço Externo; Classes Pessoa e especializações; Persistência pessoa + subtabelas; Implementação identidade-acesso e gestao-usuarios.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Segurança, completude, unicidade e rastreabilidade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de cadastro por perfil; duplicidade de CPF/e-mail; inspeção de nivel_permissao; revisão da herança por tabela.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#dae8fc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RF02&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Psicólogos precisam definir dias e faixas de atendimento; atendentes e pacientes precisam consultar horários disponíveis.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RF02 — Gestão de Agenda:&lt;/b&gt; psicólogos devem conseguir definir sua disponibilidade de horários (dias da semana e faixas horárias).&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Psicólogo: Gerenciar perfil profissional e informar área/especialidades.&lt;br&gt;Atendente: Consultar agenda e imprimir agenda.&lt;br&gt;Paciente: Consultar agenda, verificar disponibilidade e atualizar agenda.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;UCD; Atividade; Classes Agenda/Psicólogo; Persistência agenda; Máquina de Estados (consulta); Implementação módulo agenda.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Consistência, usabilidade e disponibilidade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de definição de faixa; consulta de agenda por período; verificação de horário livre/ocupado; inspeção de UNIQUE (id_psicologo, data, horario).&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#dae8fc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RF03&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Pacientes e atendentes precisam buscar horários e agendar consultas sem conflitos.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RF03 — Agendamento de Consultas:&lt;/b&gt; pacientes e atendentes devem poder buscar horários disponíveis com psicólogos e realizar o agendamento.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Atendente: Marcar e desmarcar consulta.&lt;br&gt;Paciente: Solicitar agendamento, marcar consulta, cancelar consulta e visualizar data/hora.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;UCD; Atividade; Sequência marcarConsulta/desmarcarConsulta; Classes Consulta/Agenda; Persistência consulta/agenda; Máquina de Estados.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Integridade, consistência, concorrência e usabilidade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de agendamento válido; conflito de horário; cancelamento; transições de status; teste de concorrência.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#dae8fc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RF04&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Psicólogos precisam registrar informações clínicas com sigilo, e somente o responsável pode acessá-las.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RF04 — Prontuário Eletrônico:&lt;/b&gt; o sistema deve prover um espaço para o registro clínico, acessível exclusivamente ao psicólogo responsável pelo paciente.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Psicólogo: Gerenciar atendimentos e registros, visualizar informações de clientes, acessar clientes vinculados e gerenciar vínculo.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;UCD; Atividade; Sequência realizarAtendimento/gerenciarPerfilProfissional; Classes Psicólogo/Consulta/Prontuário; Persistência prontuario/consulta; Máquina de Estados.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Confidencialidade, integridade, rastreabilidade e LGPD.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de acesso permitido/negado; auditoria de leitura/escrita; revisão de RN02; teste de vínculo paciente–psicólogo.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#dae8fc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RF05&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Pacientes precisam receber lembretes automáticos de consulta.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RF05 — Notificações Automáticas:&lt;/b&gt; um sistema externo deve disparar lembretes automáticos de consulta (via e-mail) para os pacientes através de um sistema externo de mensageria.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Paciente: Enviar notificação.&lt;br&gt;Serviço Externo: Enviar e-mail de confirmação e consultar informações.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;UCD Serviço Externo; Atividade; Sequência serviçoExterno; Implementação integração-externa/gateway SMTP; Persistência consulta.status/observações.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Confiabilidade, tempestividade e interoperabilidade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de envio de e-mail; falha do provedor e reenvio; template; registro de status; teste de contrato.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#ffe6cc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RNF01&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Dados de saúde e prontuários são sensíveis e exigem sigilo profissional e conformidade com a LGPD.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RNF01 — Segurança e Criptografia:&lt;/b&gt; dados de saúde e prontuários devem ser criptografados em repouso e em trânsito (HTTPS), garantindo conformidade com a LGPD e o sigilo profissional.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Todos os casos de uso que manipulam dados pessoais ou clínicos; autorização de dados pessoais e de contato.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Persistência senha_hash e prontuario.descricao/evolucao; Implementação TLS/HTTPS; UCD autorização; Classes Pessoa/Prontuário.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Segurança, confidencialidade e conformidade LGPD.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Revisão de criptografia em repouso/trânsito; teste de acesso não autorizado; inspeção de logs; checklist LGPD.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#ffe6cc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RNF02&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;A clínica depende do sistema disponível para atendimento e consulta de agenda.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RNF02 — Disponibilidade:&lt;/b&gt; o sistema deve manter uma disponibilidade mínima de 99,5% ao mês.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Consultar agenda, marcar/desmarcar consulta e acessar prontuário.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Implementação servidores/banco; Persistência backup/migração; Sequência; Monitoramento.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Disponibilidade, recuperabilidade e confiabilidade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Monitoramento de uptime; teste de failover; restore de backup; análise de incidentes.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#ffe6cc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RNF03&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Usuários precisam de respostas rápidas ao buscar horários e listar pacientes.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RNF03 — Desempenho:&lt;/b&gt; as telas de busca de horários e listagem de pacientes devem carregar em até 2 segundos sob condições normais de rede.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Consultar agenda, verificar disponibilidade, consultar cadastro e acessar clientes vinculados.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Persistência índices/FKs; Implementação PostgreSQL; Sequência; Classes Agenda/Paciente.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Desempenho, escalabilidade e usabilidade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de carga; medição de tempo de resposta; análise de plano de execução; índices em agenda(data, horario) e pessoa(nome, cpf).&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#ffe6cc;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RNF04&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Atores usam dispositivos variados: desktop, tablet e smartphone.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RNF04 — Responsividade:&lt;/b&gt; a interface web deve ser responsiva, adaptando-se adequadamente a dispositivos móveis (smartphones e tablets) e desktops.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Consultar agenda, marcar consulta, visualizar data/hora e acessar prontuário.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Implementação cliente web SPA; Atividade; UCD.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Usabilidade, acessibilidade e responsividade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste em viewports; checklist WCAG; teste com usuários; inspeção de layout.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#d5e8d4;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RN01&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Cancelamentos precisam seguir política financeira e evitar perdas para a clínica.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RN01 — Cancelamento de Consulta:&lt;/b&gt; o paciente pode cancelar ou reagendar sem ônus até 24 horas antes; cancelamentos com menos de 24 horas seguem a política de retenção de valores da clínica.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Paciente: Cancelar consulta e atualizar agenda.&lt;br&gt;Atendente: Desmarcar consulta.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Máquina de Estados (Cancelada/Reagendada); Atividade; Persistência consulta.status, motivo_cancelamento e data_hora_inicio; Sequência desmarcarConsulta.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Consistência, auditabilidade e conformidade com a regra de negócio.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de cancelamento com mais e menos de 24h; cálculo de prazo; registro de motivo; auditoria.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#d5e8d4;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RN02&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;O sigilo profissional impede que administrador ou atendente vejam prontuários clínicos.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RN02 — Acesso ao Prontuário:&lt;/b&gt; em hipótese alguma o administrador ou o atendente pode visualizar o conteúdo dos prontuários clínicos dos pacientes, devido ao sigilo profissional.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Psicólogo: acessar clientes, visualizar informações e gerenciar atendimentos.&lt;br&gt;Atendente: consultar cadastro.&lt;br&gt;Administrador: administrar usuários.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;UCD; Classes; Persistência prontuario; Implementação identidade-acesso; matriz de permissões.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Confidencialidade, segurança e conformidade LGPD.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de acesso por perfil; tentativa de leitura por admin/atendente; revisão de permissões; auditoria.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;background:#d5e8d4;font-weight:bold;font-size:11px;vertical-align:top;&quot;&gt;RN03&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Não pode haver dois agendamentos confirmados para o mesmo psicólogo ou paciente no mesmo horário.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;&lt;b&gt;RN03 — Incompatibilidade de Horários:&lt;/b&gt; o sistema deve impedir dois agendamentos confirmados do psicólogo no mesmo intervalo e bloquear o paciente de possuir duas consultas ativas simultâneas no mesmo dia/horário.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Atendente/Paciente: marcar consulta, remarcar/atualizar agenda e verificar disponibilidade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Máquina de Estados; Atividade; Persistência consulta.id_agenda UNIQUE, agenda UNIQUE(id_psicologo,data,horario) e status; Sequência marcarConsulta.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Integridade, consistência e concorrência.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Teste de conflito de psicólogo; conflito de paciente; concorrência; rollback transacional; inspeção de constraints.&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="2860" height="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-matriz-legend" value="&lt;b&gt;Legenda:&lt;/b&gt; &lt;span style=&quot;background:#dae8fc;padding:1px 5px;&quot;&gt;RF&lt;/span&gt; requisito funcional &amp;nbsp; &lt;span style=&quot;background:#ffe6cc;padding:1px 5px;&quot;&gt;RNF&lt;/span&gt; requisito não funcional &amp;nbsp; &lt;span style=&quot;background:#d5e8d4;padding:1px 5px;&quot;&gt;RN&lt;/span&gt; regra de negócio. &amp;nbsp; Os modelos referenciam os arquivos de UCD, classes, sequência, atividade, máquina de estados, persistência e implementação." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2210" width="2860" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tr-cobertura" name="02 - Cobertura e Lacunas">
+    <mxGraphModel dx="2400" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tr-cob-title" value="&lt;b style=&quot;font-size:30px;&quot;&gt;Cobertura e Lacunas — Parecer de Coerência&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="70" y="24" width="2000" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-cob-subtitle" value="Verificação da cobertura dos requisitos pelos modelos e identificação de ações de melhoria." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="70" y="72" width="2000" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-cob-table" value="&lt;table style=&quot;border-collapse:collapse;width:100%;table-layout:fixed;font-family:Helvetica,Arial,sans-serif;font-size:10.5px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#dae8fc;color:#1f3a5f;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #6c8ebf;width:300px;&quot;&gt;Artefato&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #6c8ebf;width:180px;&quot;&gt;Cobertura&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #6c8ebf;width:820px;&quot;&gt;Evidência&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #6c8ebf;width:980px;&quot;&gt;Lacuna / Ação&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Requisitos funcionais&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;5/5&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;RF01–RF05 mapeados para casos de uso, classes, persistência, sequência e implementação.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Nenhuma lacuna de requisito.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Requisitos não funcionais&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;4/4&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;RNF01–RNF04 mapeados para segurança, disponibilidade, desempenho e responsividade.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Formalizar plano de testes de carga e checklist de segurança.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Regras de negócio&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;3/3&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;RN01–RN03 refletidas na máquina de estados, no dicionário de dados e nas constraints de persistência.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Nenhuma lacuna de regra.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Casos de uso&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;29 UCDs / 27 atividades&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;UCDs: Atendente (7), Paciente (8), Psicólogo (9), Serviço Externo (5). Atividades: 27 páginas.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Criar atividades para “Imprimir agenda” e “Gerenciar vínculo com clientes/pacientes”.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Modelo de classes&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;8 entidades&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Pessoa, Paciente, Psicólogo, Atendente, Administrador, Agenda, Consulta e Prontuário.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Nenhuma lacuna.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Modelo de persistência&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;8 tabelas / 47 atributos&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Dicionário de dados e modelo ER com PK/FK, cardinalidades e constraints.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Nenhuma lacuna.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Diagramas de sequência&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;8 fluxos&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Cadastro, alterar cadastro, marcar/desmarcar consulta, realizar atendimento, gerenciar perfil, clientes vinculados e serviço externo.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Opcional: sequência específica para cancelamento com retenção após 24h.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Máquina de estados&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;1 (Consulta)&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Estados Solicitada, Agendada, Confirmada, Em Atendimento, Realizada, Cancelada e Não Compareceu.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Nenhuma lacuna; estados cobrem RF03, RN01 e RN03.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Implementação&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;1 visão consolidada&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Dispositivo do usuário, servidor web, aplicação, PostgreSQL 16, schema psicologia e serviço externo.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Nenhuma lacuna.&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-weight:bold;font-size:10px;vertical-align:top;&quot;&gt;Qualidade e validação&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;12 linhas na matriz&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Cada requisito possui critério de qualidade e forma de validação associada.&lt;/td&gt;
+    &lt;td style=&quot;padding:6px;border-bottom:1px solid #e8edf3;font-size:10px;vertical-align:top;word-wrap:break-word;&quot;&gt;Criar casos de teste detalhados e registrar evidências de execução.&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="2280" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="tr-cob-note" value="&lt;b&gt;Parecer final&lt;/b&gt;&lt;br&gt;&lt;br&gt;• &lt;b&gt;Coerência:&lt;/b&gt; todos os requisitos RF01–RF05, RNF01–RNF04 e regras RN01–RN03 possuem correspondência nos modelos e no modelo de persistência.&lt;br&gt;• &lt;b&gt;Consistência:&lt;/b&gt; o dicionário de dados reflete as mesmas entidades, atributos e constraints do modelo de persistência.&lt;br&gt;• &lt;b&gt;Lacunas:&lt;/b&gt; faltam dois diagramas de atividade (Imprimir agenda e Gerenciar vínculo com clientes/pacientes) e a formalização dos casos de teste.&lt;br&gt;• &lt;b&gt;Ação recomendada:&lt;/b&gt; completar as duas páginas de atividade e criar uma planilha de execução de testes com evidências." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="990" width="2280" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

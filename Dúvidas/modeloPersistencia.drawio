@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-11-04T12:30:00.000Z" agent="OpenCode" version="24.7.17">
+  <diagram id="modelo-persistencia" name="Modelo de Persistência">
+    <mxGraphModel dx="1920" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="titulo" value="Modelo de Persistência — Banco de Dados Relacional" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontStyle=1;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="1300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitulo" value="Sistema de Administração de Psicólogos  •  PostgreSQL 16  •  schema psicologia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="60" y="66" width="1300" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pessoa" value="&lt;table style=&quot;border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:11px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#dae8fc;color:#1f3a5f;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;3&quot; style=&quot;padding:6px 8px;border-bottom:1px solid #6c8ebf;font-size:13px;&quot;&gt;pessoa&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:52px;&quot;&gt;Chave&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:128px;&quot;&gt;Coluna&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;&quot;&gt;Tipo / restrição&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#fff2cc;border:1px solid #d6b656;color:#7f6000;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;PK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_pessoa&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGSERIAL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;nome&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(150) NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;cpf&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(11) UNIQUE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;email&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(150) UNIQUE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;telefone&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(20)&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;data_nascimento&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;DATE&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;senha_hash&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(255) NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;nivel_permissao&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(30) NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;ativo&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BOOLEAN NOT NULL DEFAULT TRUE&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;criado_em&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP NOT NULL DEFAULT now()&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;atualizado_em&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="360" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="paciente" value="&lt;table style=&quot;border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:11px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#dae8fc;color:#1f3a5f;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;3&quot; style=&quot;padding:6px 8px;border-bottom:1px solid #6c8ebf;font-size:13px;&quot;&gt;paciente&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:52px;&quot;&gt;Chave&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:128px;&quot;&gt;Coluna&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;&quot;&gt;Tipo / restrição&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#fff2cc;border:1px solid #d6b656;color:#7f6000;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;PK/FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_pessoa&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;registro_medico&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(50) UNIQUE&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;observacoes&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TEXT&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="360" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="psicologo" value="&lt;table style=&quot;border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:11px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#dae8fc;color:#1f3a5f;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;3&quot; style=&quot;padding:6px 8px;border-bottom:1px solid #6c8ebf;font-size:13px;&quot;&gt;psicologo&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:52px;&quot;&gt;Chave&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:128px;&quot;&gt;Coluna&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;&quot;&gt;Tipo / restrição&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#fff2cc;border:1px solid #d6b656;color:#7f6000;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;PK/FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_pessoa&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;crp&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(20) UNIQUE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;especialidade&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(100)&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="360" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="atendente" value="&lt;table style=&quot;border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:11px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#dae8fc;color:#1f3a5f;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;3&quot; style=&quot;padding:6px 8px;border-bottom:1px solid #6c8ebf;font-size:13px;&quot;&gt;atendente&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:52px;&quot;&gt;Chave&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:128px;&quot;&gt;Coluna&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;&quot;&gt;Tipo / restrição&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#fff2cc;border:1px solid #d6b656;color:#7f6000;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;PK/FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_pessoa&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;matricula&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(30) UNIQUE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="480" width="360" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="administrador" value="&lt;table style=&quot;border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:11px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#dae8fc;color:#1f3a5f;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;3&quot; style=&quot;padding:6px 8px;border-bottom:1px solid #6c8ebf;font-size:13px;&quot;&gt;administrador&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:52px;&quot;&gt;Chave&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:128px;&quot;&gt;Coluna&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;&quot;&gt;Tipo / restrição&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#fff2cc;border:1px solid #d6b656;color:#7f6000;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;PK/FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_pessoa&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;cra&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(20) UNIQUE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="660" width="360" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="agenda" value="&lt;table style=&quot;border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:11px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#d5e8d4;color:#2d4a2b;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;3&quot; style=&quot;padding:6px 8px;border-bottom:1px solid #82b366;font-size:13px;&quot;&gt;agenda&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:52px;&quot;&gt;Chave&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:128px;&quot;&gt;Coluna&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;&quot;&gt;Tipo / restrição&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#fff2cc;border:1px solid #d6b656;color:#7f6000;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;PK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_agenda&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGSERIAL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#ffe6cc;border:1px solid #d79b00;color:#8a4b00;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_psicologo&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;data&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;DATE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;horario&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIME NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;disponibilidade&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BOOLEAN NOT NULL DEFAULT TRUE&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;criado_em&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP NOT NULL DEFAULT now()&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="120" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="consulta" value="&lt;table style=&quot;border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:11px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#d5e8d4;color:#2d4a2b;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;3&quot; style=&quot;padding:6px 8px;border-bottom:1px solid #82b366;font-size:13px;&quot;&gt;consulta&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:52px;&quot;&gt;Chave&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:128px;&quot;&gt;Coluna&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;&quot;&gt;Tipo / restrição&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#fff2cc;border:1px solid #d6b656;color:#7f6000;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;PK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_consulta&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGSERIAL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#ffe6cc;border:1px solid #d79b00;color:#8a4b00;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_paciente&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#ffe6cc;border:1px solid #d79b00;color:#8a4b00;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_psicologo&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#ffe6cc;border:1px solid #d79b00;color:#8a4b00;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_agenda&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT UNIQUE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#ffe6cc;border:1px solid #d79b00;color:#8a4b00;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_atendente&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;status&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;VARCHAR(30) NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;observacoes&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TEXT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;data_hora_inicio&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;data_hora_fim&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;motivo_cancelamento&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TEXT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;criado_em&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP NOT NULL DEFAULT now()&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;atualizado_em&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="430" width="380" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="prontuario" value="&lt;table style=&quot;border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:11px;background:#ffffff;&quot;&gt;&lt;tr style=&quot;background:#d5e8d4;color:#2d4a2b;font-weight:bold;&quot;&gt;
+    &lt;td colspan=&quot;3&quot; style=&quot;padding:6px 8px;border-bottom:1px solid #82b366;font-size:13px;&quot;&gt;prontuario&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr style=&quot;background:#f5f8fc;color:#555;font-size:10px;font-weight:bold;&quot;&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:52px;&quot;&gt;Chave&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;width:128px;&quot;&gt;Coluna&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #d0d7de;&quot;&gt;Tipo / restrição&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#fff2cc;border:1px solid #d6b656;color:#7f6000;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;PK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_prontuario&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGSERIAL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#ffe6cc;border:1px solid #d79b00;color:#8a4b00;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_paciente&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;span style=&quot;background:#ffe6cc;border:1px solid #d79b00;color:#8a4b00;border-radius:3px;padding:0 3px;font-size:9px;font-weight:bold;white-space:nowrap;&quot;&gt;FK&lt;/span&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;id_consulta&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;BIGINT UNIQUE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;data_abertura&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;DATE NOT NULL&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;descricao&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TEXT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;evolucao&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TEXT&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;criado_em&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP NOT NULL DEFAULT now()&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;&quot;&gt;&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-family:Consolas,monospace;font-size:10px;color:#1f2937;&quot;&gt;atualizado_em&lt;/td&gt;
+    &lt;td style=&quot;padding:3px 6px;border-bottom:1px solid #e8edf3;font-size:10px;color:#444;&quot;&gt;TIMESTAMP&lt;/td&gt;
+  &lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=0;spacingTop=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="860" width="380" height="230" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rel-pessoa-paciente" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.15;exitDx=0;exitDy=0;;entryX=0;entryY=0.5;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToOne;" edge="1" parent="1" source="pessoa" target="paciente">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="470" y="265" /><mxPoint x="470" y="182" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-pessoa-paciente-label" value="1 : 0..1&lt;br&gt;especializa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-pessoa-paciente">
+          <mxGeometry x="0.45" relative="1" as="geometry">
+            <mxPoint x="28" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-pessoa-psicologo" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.45;exitDx=0;exitDy=0;;entryX=0;entryY=0.5;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToOne;" edge="1" parent="1" source="pessoa" target="psicologo">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="470" y="355" /><mxPoint x="470" y="362" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-pessoa-psicologo-label" value="1 : 0..1&lt;br&gt;especializa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-pessoa-psicologo">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint x="30" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-pessoa-atendente" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.8;exitDx=0;exitDy=0;;entryX=0;entryY=0.5;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToOne;" edge="1" parent="1" source="pessoa" target="atendente">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="480" y="460" /><mxPoint x="480" y="532" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-pessoa-atendente-label" value="1 : 0..1&lt;br&gt;especializa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-pessoa-atendente">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint x="30" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-pessoa-administrador" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.95;exitDx=0;exitDy=0;;entryX=0;entryY=0.5;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToOne;" edge="1" parent="1" source="pessoa" target="administrador">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="490" y="505" /><mxPoint x="490" y="712" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-pessoa-administrador-label" value="1 : 0..1&lt;br&gt;especializa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-pessoa-administrador">
+          <mxGeometry x="0.55" relative="1" as="geometry">
+            <mxPoint x="32" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-psicologo-agenda" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;;entryX=0;entryY=0.5;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToMany;" edge="1" parent="1" source="psicologo" target="agenda">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="920" y="362" /><mxPoint x="920" y="215" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-psicologo-agenda-label" value="1 : 0..N&lt;br&gt;possui" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-psicologo-agenda">
+          <mxGeometry x="0.15" relative="1" as="geometry">
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-agenda-consulta" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;;entryX=0.5;entryY=0;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToOne;" edge="1" parent="1" source="agenda" target="consulta">
+          <mxGeometry relative="1" as="geometry"><Array as="points"></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-agenda-consulta-label" value="1 : 0..1&lt;br&gt;ocupada por" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-agenda-consulta">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint x="72" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-paciente-consulta" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;;entryX=0;entryY=0.3;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToMany;" edge="1" parent="1" source="paciente" target="consulta">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="900" y="182" /><mxPoint x="900" y="526" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-paciente-consulta-label" value="1 : 0..N&lt;br&gt;solicita" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-paciente-consulta">
+          <mxGeometry x="0.18" relative="1" as="geometry">
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-psicologo-consulta" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.7;exitDx=0;exitDy=0;;entryX=0;entryY=0.45;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToMany;" edge="1" parent="1" source="psicologo" target="consulta">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="930" y="387" /><mxPoint x="930" y="574" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-psicologo-consulta-label" value="1 : 0..N&lt;br&gt;realiza" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-psicologo-consulta">
+          <mxGeometry x="0.18" relative="1" as="geometry">
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-atendente-consulta" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;;entryX=0;entryY=0.65;entryDx=0;entryDy=0;;startArrow=ERzeroToOne;endArrow=ERzeroToMany;" edge="1" parent="1" source="atendente" target="consulta">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="950" y="532" /><mxPoint x="950" y="638" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-atendente-consulta-label" value="0..1 : 0..N&lt;br&gt;agenda" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-atendente-consulta">
+          <mxGeometry x="0.18" relative="1" as="geometry">
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-consulta-prontuario" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;;entryX=0.5;entryY=0;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToOne;" edge="1" parent="1" source="consulta" target="prontuario">
+          <mxGeometry relative="1" as="geometry"><Array as="points"></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-consulta-prontuario-label" value="1 : 0..1&lt;br&gt;gera" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-consulta-prontuario">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint x="62" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-paciente-prontuario" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=1;endArrow=ERzeroToMany;endFill=1;strokeWidth=1.5;strokeColor=#333333;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.85;exitDx=0;exitDy=0;;entryX=0;entryY=0.5;entryDx=0;entryDy=0;;startArrow=ERmandOne;endArrow=ERzeroToMany;" edge="1" parent="1" source="paciente" target="prontuario">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="880" y="226" /><mxPoint x="880" y="975" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rel-paciente-prontuario-label" value="1 : 0..N&lt;br&gt;possui" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;labelBackgroundColor=#ffffff;fontColor=#333333;" vertex="1" connectable="0" parent="rel-paciente-prontuario">
+          <mxGeometry x="0.16" relative="1" as="geometry">
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="nota-convencoes" value="&lt;b&gt;Convenções do modelo&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+• &lt;b&gt;PK&lt;/b&gt; — chave primária.&lt;br&gt;
+• &lt;b&gt;FK&lt;/b&gt; — chave estrangeira.&lt;br&gt;
+• &lt;b&gt;PK/FK&lt;/b&gt; — herança por tabela: a PK da subtabela também referencia &lt;b&gt;pessoa&lt;/b&gt;.&lt;br&gt;
+• Linhas com notação &lt;i&gt;crow's foot&lt;/i&gt; representam cardinalidades.&lt;br&gt;
+• Azul: identidade e usuários.&lt;br&gt;
+• Verde: agenda, atendimento e prontuário.&lt;br&gt;
+• Tipos compatíveis com &lt;b&gt;PostgreSQL 16&lt;/b&gt;." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="120" width="400" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nota-regras" value="&lt;b&gt;Regras de persistência&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+• &lt;b&gt;pessoa&lt;/b&gt; concentra os dados comuns e as credenciais de acesso.&lt;br&gt;
+• &lt;b&gt;paciente&lt;/b&gt;, &lt;b&gt;psicologo&lt;/b&gt;, &lt;b&gt;atendente&lt;/b&gt; e &lt;b&gt;administrador&lt;/b&gt; são especializações 1:1 de pessoa.&lt;br&gt;
+• &lt;b&gt;agenda&lt;/b&gt; pertence a um psicólogo. A restrição &lt;b&gt;UNIQUE (id_psicologo, data, horario)&lt;/b&gt; evita horários duplicados.&lt;br&gt;
+• &lt;b&gt;consulta&lt;/b&gt; referencia paciente, psicólogo, agenda e, opcionalmente, o atendente que a marcou. &lt;b&gt;id_agenda&lt;/b&gt; é único: cada horário recebe no máximo uma consulta.&lt;br&gt;
+• O domínio de &lt;b&gt;consulta.status&lt;/b&gt; acompanha a máquina de estados: &lt;i&gt;Solicitada, Agendada, Confirmada, Em Atendimento, Realizada, Cancelada e Não Compareceu&lt;/i&gt;.&lt;br&gt;
+• &lt;b&gt;prontuario&lt;/b&gt; é vinculado ao paciente e à consulta que originou o registro; o psicólogo é derivado da consulta.&lt;br&gt;
+• Cancelamentos e faltas preservam o histórico; por isso a consulta não é excluída fisicamente." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="450" width="400" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="nota-rastreabilidade" value="&lt;b&gt;Rastreabilidade&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+• Diagrama de classes: Pessoa, Paciente, Psicólogo, Atendente, Administrador, Agenda, Consulta e Prontuário.&lt;br&gt;
+• Diagrama de implementação: PostgreSQL 16, schema &lt;b&gt;psicologia&lt;/b&gt;.&lt;br&gt;
+• Máquina de estados: valores de &lt;b&gt;consulta.status&lt;/b&gt;.&lt;br&gt;
+• Casos de uso: cadastro, marcação, cancelamento, atendimento e prontuário.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Observação:&lt;/b&gt; notificações de e-mail/SMS são eventos de integração e não são modeladas como entidade persistente de domínio." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="900" width="400" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
