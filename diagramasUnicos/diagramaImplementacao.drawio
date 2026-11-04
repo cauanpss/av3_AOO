@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-11-04T12:00:00.000Z" agent="OpenCode" version="24.7.17">
+  <diagram name="Implementação" id="diagrama-implementacao">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="titulo" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;" value="&lt;b style=&quot;font-size: 28px;&quot;&gt;Diagrama de Implementação — Sistema de Administração de Psicólogos&lt;/b&gt;" vertex="1">
+          <mxGeometry x="40" y="20" width="1100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitulo" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#555555;" value="Visão de implantação consolidada dos diagramas de caso de uso, classes, pacotes, componentes, sequência, comunicação e objetos." vertex="1">
+          <mxGeometry x="40" y="65" width="1000" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dispositivoUsuario" parent="1" style="shape=cube;size=10;direction=south;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingTop=8;fontSize=15;fontStyle=1;" value="«device»&lt;br&gt;Dispositivo do Usuário" vertex="1">
+          <mxGeometry x="40" y="150" width="310" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="atores" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;" value="Paciente • Psicólogo • Atendente • Administrador" vertex="1">
+          <mxGeometry x="55" y="195" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="artClienteWeb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact»&lt;br&gt;&lt;b&gt;Cliente Web&lt;/b&gt;&lt;br&gt;HTML5 • CSS3 • JavaScript" vertex="1">
+          <mxGeometry x="55" y="245" width="280" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="artNavegador" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact»&lt;br&gt;&lt;b&gt;Navegador Web&lt;/b&gt;&lt;br&gt;Chrome • Edge • Firefox • Safari" vertex="1">
+          <mxGeometry x="55" y="322" width="280" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="servidorWeb" parent="1" style="shape=cube;size=10;direction=south;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingTop=8;fontSize=15;fontStyle=1;" value="«device»&lt;br&gt;Servidor Web" vertex="1">
+          <mxGeometry x="420" y="170" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="artProxy" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact»&lt;br&gt;&lt;b&gt;Nginx / Proxy Reverso&lt;/b&gt;&lt;br&gt;TLS • Arquivos estáticos" vertex="1">
+          <mxGeometry x="435" y="235" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="artFrontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact»&lt;br&gt;&lt;b&gt;Front-end SPA&lt;/b&gt;&lt;br&gt;Build de produção" vertex="1">
+          <mxGeometry x="435" y="312" width="220" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="servidorAplicacao" parent="1" style="shape=cube;size=10;direction=south;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingTop=8;fontSize=15;fontStyle=1;" value="«execution environment»&lt;br&gt;Servidor de Aplicação&lt;br&gt;Node.js / Java Spring Boot" vertex="1">
+          <mxGeometry x="750" y="120" width="420" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="rotuloModulos" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#333333;" value="Módulos implantados — API REST" vertex="1">
+          <mxGeometry x="770" y="195" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="artIdentidade" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact» &lt;b&gt;identidade-acesso&lt;/b&gt;&lt;br&gt;Login, sessão, permissões e controle de acesso" vertex="1">
+          <mxGeometry x="770" y="230" width="380" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="artUsuarios" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact» &lt;b&gt;gestao-usuarios&lt;/b&gt;&lt;br&gt;Cadastro e manutenção de pacientes, psicólogos, atendentes e administradores" vertex="1">
+          <mxGeometry x="770" y="305" width="380" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="artAgenda" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact» &lt;b&gt;agenda&lt;/b&gt;&lt;br&gt;Disponibilidade, marcação, remarcação e desmarcação de consultas" vertex="1">
+          <mxGeometry x="770" y="380" width="380" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="artAtendimento" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact» &lt;b&gt;atendimento&lt;/b&gt;&lt;br&gt;Realização de consultas, histórico e vínculo paciente–psicólogo" vertex="1">
+          <mxGeometry x="770" y="455" width="380" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="artProntuario" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact» &lt;b&gt;prontuario&lt;/b&gt;&lt;br&gt;Registro e consulta de prontuários psicológicos" vertex="1">
+          <mxGeometry x="770" y="530" width="380" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="artIntegracao" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact» &lt;b&gt;integracao-externa&lt;/b&gt;&lt;br&gt;Envio de e-mails/SMS e integração com serviços externos" vertex="1">
+          <mxGeometry x="770" y="605" width="380" height="62" as="geometry" />
+        </mxCell>
+
+        <mxCell id="servidorBanco" parent="1" style="shape=cube;size=10;direction=south;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingTop=8;fontSize=15;fontStyle=1;" value="«device»&lt;br&gt;Servidor de Banco de Dados" vertex="1">
+          <mxGeometry x="1250" y="120" width="340" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="artSgbd" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact»&lt;br&gt;&lt;b&gt;PostgreSQL 16&lt;/b&gt; — SGBD relacional" vertex="1">
+          <mxGeometry x="1270" y="185" width="300" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="artSchema" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact»&lt;br&gt;&lt;b&gt;Schema psicologia&lt;/b&gt;&lt;br&gt;&lt;br&gt;pessoa • paciente • psicologo&lt;br&gt;atendente • administrador&lt;br&gt;agenda • consulta • prontuario" vertex="1">
+          <mxGeometry x="1270" y="252" width="300" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="artMigracao" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact»&lt;br&gt;&lt;b&gt;Scripts de migração / backup&lt;/b&gt;" vertex="1">
+          <mxGeometry x="1270" y="410" width="300" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="servicoExterno" parent="1" style="shape=cube;size=10;direction=south;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingTop=8;fontSize=15;fontStyle=1;" value="«device»&lt;br&gt;Serviço Externo&lt;br&gt;E-mail / SMS" vertex="1">
+          <mxGeometry x="1250" y="590" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="artGateway" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;align=center;fontSize=12;" value="«artifact»&lt;br&gt;&lt;b&gt;Gateway SMTP / API de Mensagens&lt;/b&gt;" vertex="1">
+          <mxGeometry x="1270" y="665" width="300" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="textoGateway" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;" value="Confirmações, lembretes e status de consulta" vertex="1">
+          <mxGeometry x="1270" y="730" width="300" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="comunicacaoClienteWeb" edge="1" parent="1" source="dispositivoUsuario" target="servidorWeb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#333333;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="HTTPS&lt;br&gt;TLS" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="comunicacaoWebApp" edge="1" parent="1" source="servidorWeb" target="servidorAplicacao" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#333333;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="HTTP/HTTPS&lt;br&gt;REST/JSON" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="comunicacaoAppBanco" edge="1" parent="1" source="servidorAplicacao" target="servidorBanco" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#333333;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="TCP/IP&lt;br&gt;SQL" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="comunicacaoAppExterno" edge="1" parent="1" source="servidorAplicacao" target="servicoExterno" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#333333;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.85;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="SMTP&lt;br&gt;HTTPS" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nota" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontSize=12;" value="&lt;b&gt;Legenda e rastreabilidade&lt;/b&gt;&lt;br&gt;&lt;br&gt;• &lt;b&gt;«device»&lt;/b&gt; — nó físico ou de infraestrutura.&lt;br&gt;• &lt;b&gt;«execution environment»&lt;/b&gt; — ambiente de execução dos módulos.&lt;br&gt;• &lt;b&gt;«artifact»&lt;/b&gt; — unidade implantável do sistema.&lt;br&gt;• Linha contínua — caminho de comunicação e protocolo.&lt;br&gt;• Pacotes mapeados: Identidade/Acesso, Psicólogo, Administração,&lt;br&gt;&amp;nbsp;&amp;nbsp;Cliente/Paciente, Agenda e Atendimento.&lt;br&gt;• Entidades persistidas: Pessoa, Paciente, Psicólogo, Atendente,&lt;br&gt;&amp;nbsp;&amp;nbsp;Administrador, Agenda, Consulta e Prontuário." vertex="1">
+          <mxGeometry x="40" y="470" width="650" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
